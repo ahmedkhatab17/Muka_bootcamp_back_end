@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ahmed Khatab - Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Ahmed Khatab</h1>
+        <nav>
+            <ul>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hi! I am Ahmed Khatab, a passionate Software Engineering student focused on Backend Development.</p>
+        <img src="img/20241011_034113.jpg" style="width: 20%;" alt="ahmed's photo">
+        <details class="fun-facts">
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Project 1: Portfolio Website</h3>
+                <p>A personal website showcasing my projects and skills.</p>
+                <a href="https://github.com/ahmedkhatab17/portfolio" target="_blank">GitHub Repo</a>
+                <figure>
+                    <img src="img/portfolio-screenshot.png" style="width: 20%;" alt="portfolio screenshot">
+                    <figcaption>Portfolio website project screenshot</figcaption>
+                </figure>
+            </li>
+            <li>
+                <h3>Project 2: E-commerce API</h3>
+                <p>An API built using NodeJS and MongoDB for managing an e-commerce platform.</p>
+                <a href="https://github.com/ahmedkhatab17/ecommerce-api" target="_blank">GitHub Repo</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <table border="1">
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+                <th>Experience</th>
+            </tr>
+            <tr>
+                <td>NodeJS</td>
+                <td>Advanced</td>
+                <td>6 Months</td>
+            </tr>
+            <tr>
+                <td>PHP</td>
+                <td>Intermediate</td>
+                <td>1 year</td>
+            </tr>
+            <tr>
+                <td>MySQL</td>
+                <td>Intermediate</td>
+                <td>1 years</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <form action="/submit" method="POST">
+            <label>Name</label>
+            <input type="text" id="name" required> <br> <br>
+
+            <label>Email</label>
+            <input type="email" id="email" required> <br> <br>
+
+            <label>Message</label>
+            <textarea id="message" rows="5"></textarea> <br> <br>
+
+            <button type="submit">Submit</button> <br><br>
+        </form>
+    </section>
+
+    <footer>
+        <p>@Ahmedkhatab. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
