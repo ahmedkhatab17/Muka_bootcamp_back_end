@@ -9,6 +9,14 @@ h1, h2{
     font-family: 'Arial Black', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+  
+.dark-mode {
+    background-color: black;
+    color: white;
+}
 
 header{
     background-color: #333;
@@ -40,13 +48,21 @@ nav ul li a:hover{
 
 
 .about {
-    background-color: white;
+    /* background-color: white; */
     padding: 40px 20px;
     text-align: center;
 }
 .about p{
     max-width: 600px;
     margin: 10px auto;
+}
+.about button{
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    
 }
 .about img{
     border-radius: 50%;
@@ -56,8 +72,9 @@ nav ul li a:hover{
 }
 
 
+
 .projects{
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     padding: 40px 20px;
     text-align: center;
 }
@@ -95,7 +112,7 @@ nav ul li a:hover{
 
 
 .skills{
-    background-color: white;
+    /* background-color: white; */
     padding: 40px 20px;
     text-align: center;
 }
@@ -110,12 +127,12 @@ nav ul li a:hover{
     text-align: left;
 }
 .skills th{
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
 }
 
 
 .contact{
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     padding: 40px 20px;
     text-align: center;
 }
