@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <script src="script.js"></script>
+
     <title>Ahmed Khatab - Portfolio</title>
 </head>
 <body>
     <header>
         <h1>Ahmed Khatab</h1>
         <nav>
+            <button id="themeToggle">Toggle Theme</button>
             <ul>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -19,10 +20,14 @@
             </ul>
         </nav>
     </header>
+    
 
     <section id="about" class="about">
         <h2>About Me</h2>
-        <p>Hi! I am Ahmed Khatab, a passionate Software Engineering student focused on Backend Development.</p>
+        <div>
+            <p id="aboutMe">Hi! I am Ahmed Khatab, a passionate Software Engineering student focused on Backend Development.</p>
+            <button id="updateAboutMe">Update About Me</button>
+        </div>
         <img src="img/20241011_034113.jpg" style="width: 20%;" alt="ahmed's photo">
     </section>
 
@@ -74,17 +79,11 @@
 
     <section id="contact" class="contact">
         <h2>Contact</h2>
-        <form action="">
-            <label>Name</label>
-            <input type="text" id="name" required> <br> <br>
-
-            <label>Email</label>
-            <input type="email" id="email" required> <br> <br>
-
-            <label>Message</label>
-            <textarea id="message" rows="5"></textarea> <br> <br>
-
-            <button type="submit">Submit</button> <br><br>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="text" id="email" placeholder="Your Email">
+            <button type="submit">Submit</button>
+            <p id="errorMessage"></p>
         </form>
     </section>
 
@@ -92,5 +91,7 @@
         <p>@Ahmedkhatab. All rights reserved.</p>
     </footer>
 
+
+    <script src="script.js"></script>
 </body>
 </html>
