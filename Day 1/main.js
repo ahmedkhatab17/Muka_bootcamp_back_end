@@ -68,5 +68,14 @@ if (number % 2 === 0){
 }
 
 
+//Task 7
 
+let str1= "hello";
+let str2= "ahmed";
+
+if (str1 === str2 && str1.length()=== str2.length()) {
+    console.log("The strings are equal");
+} else {
+    console.log("The strings are not equal");
+}
 
