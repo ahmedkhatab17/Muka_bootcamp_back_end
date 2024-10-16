@@ -31,3 +31,12 @@ console.log(result3); //Output: 2
 
 let result4 = null /* = 0 */ + 5;
 console.log(result4); //Output: 5
+
+//Task 4
+/*
+https://www.w3schools.com/js/js_operators.asp
+https://www.w3schools.com/js/js_arithmetic.asp
+https://www.w3schools.com/js/js_assignment.asp
+https://www.w3schools.com/js/js_comparisons.asp     logical
+*/
+
