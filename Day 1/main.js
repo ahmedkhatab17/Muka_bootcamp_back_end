@@ -40,3 +40,19 @@ https://www.w3schools.com/js/js_assignment.asp
 https://www.w3schools.com/js/js_comparisons.asp     logical
 */
 
+//Task 5
+//Arithmetic
+console.log(5 + 3);
+console.log(10 - 4);
+let text = "Hello"; text += " World";
+console.log(text);
+
+//comparison
+console.log(5 == '5');
+console.log(5 === '5'); //Output: false
+
+//Logical
+console.log(true&& false);
+console.log(true|| false);
+console.log(!true);
+
