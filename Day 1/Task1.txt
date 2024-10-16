@@ -1,0 +1,15 @@
+var:
+Function-scoped.
+Can be re-declared and updated.
+Hoisted but initialized with undefined.
+
+let:
+Block-scoped.
+Cannot be re-declared in the same scope.
+Can be updated but not re-declared.
+Hoisted but not initialized.
+
+const:
+Block-scoped.
+Cannot be re-declared or updated (must be initialized at declaration).
+Hoisted but not initialized.
