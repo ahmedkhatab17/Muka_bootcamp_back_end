@@ -1,0 +1,27 @@
+Day 1: Variables and Data Types
+
+ Learn:
+o Understanding variable declarations (let, const, var)
+o Different data types in JavaScript (string, number, boolean, null, undefined,
+symbol)
+o Arithmetic, comparison, and logical operators
+
+ Focus:
+o Use of variables and data types in code
+o Type coercion concepts
+o How to perform operations and comparisons
+o Understanding operator precedence
+
+ Tasks:
+o Research and list the differences between let, const, and var.
+o Write a code snippet using each variable declaration and log them to the
+console.
+o Experiment with type coercion by combining different data types in
+operations and log the results.
+o Research and create a table of arithmetic, comparison, and logical
+operators in JavaScript.
+o Write code snippets that demonstrate the use of each type of operator.
+o Implement a program that checks whether a number is even or odd using
+comparison operators.
+o Write a program that compares two strings and logs if they are equal,
+using logical operators.
