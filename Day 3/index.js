@@ -56,3 +56,14 @@ while (count <= 10) {
     console.log(count);
     count++;
 }
+
+/////////// Task 5 ////////////////
+
+function evenNum(start, end){
+    for(var i= start; i <= end; i++){
+        if(i%2 == 0){
+            console.log(i);
+        }
+    }
+}
+evenNum(0, 20);
