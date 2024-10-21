@@ -41,3 +41,11 @@ function Day(day) {
 }
 Day(3);
 
+/////////// Task 3 ////////////////
+
+var names = ["Ichraf", "Youssef", "Ziad", "Ahmed", "Ibrahim"];
+
+for(let i=0; i < names.length; i++){
+    console.log(`Eng : ${names[i]}`);
+}
+
