@@ -49,3 +49,10 @@ for(let i=0; i < names.length; i++){
     console.log(`Eng : ${names[i]}`);
 }
 
+/////////// Task 4 ////////////////
+
+let count = 1;
+while (count <= 10) {
+    console.log(count);
+    count++;
+}
