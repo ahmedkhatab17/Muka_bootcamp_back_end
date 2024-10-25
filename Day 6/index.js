@@ -31,7 +31,7 @@ console.log(getStudentsByLocation(getListStudents(), "alex"));
 
 ////////////// Task 4, 5 /////////////////
 
-// i can't do them need explaintion
+// i can't do both of them need explaintion
 
 
 
